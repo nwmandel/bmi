@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* header that says bmi calculator*/
 h1 {
     font-size: 42px;
     font-family: Verdana, Helvetica, sans-serif;
@@ -33,9 +34,11 @@ input {
     position: relative;
     font-size: 16px;
 }
-#weight {
 
+#result {
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
 /* Style the "enter" button */
 .addBtn {
     padding: 10px;
