@@ -25,7 +25,10 @@ function findbmi() {
 		var suggest = document.getElementById("suggest");
 		if (res < 18.5) {
 			suggest.innerText = "You are underweight :(";
+
 			suggest.style.display = "block";
+			
+
 		} else if (res > 18.5 && res < 24.9) {
 			suggest.innerHTML = "You are normal weight :)";
 			suggest.style.display = "block";
