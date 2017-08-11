@@ -41,9 +41,10 @@ input {
     font-size: 26px;
 }
 
-.suggest {
+#suggest {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
 
 /* Style the "enter" button */
 .addBtn {

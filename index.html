@@ -8,23 +8,20 @@
 <body>
 	<h1>BMI Calculator</h1>
 	<div id="myDIV" class="header">
-	<form name="bmi_input" >
-  		<label>Enter Weight: </label><br>
+	<form>
+  		<br>Enter Weight: <br>
   		<input type="number" id="weight" placeholder="Enter weight (in lbs)...">
 
-  		<br><br><label>Enter Height: </label><br>
+  		<br><br> Enter Height: <br>
   		<input type="number" id="heightft" placeholder="feet">
-
-  		<br><br><label>Enter Inches: </label><br>
+  		
+		<br><br> Enter Inches: <br>
   		<input type="number" id="heightin" placeholder="inches">
 	</form>
-  	<br><span onclick="findbmi()" class="addBtn">Enter weight and height</span>
-
+  	<span onclick="findbmi()" class="addBtn">Enter weight and height</span>
 	</div>
 	<h2 id="result" style="display:none;"> </h2>
-		<div class="suggest" style="display:none;"> 
-			<p id="p1" > </p>
-		</div>
+		<div id="suggest"> </div>
 	<ul id="myUL">
 
 	</ul>

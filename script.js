@@ -22,7 +22,7 @@ function findbmi() {
 		document.getElementById("result").innerText = "Your BMI is: " + res;
 		document.getElementById("result").style.display = "block";
 
-		var suggest = document.getElementByClassName("suggest")[0];
+		var suggest = document.getElementById("suggest");
 		if (res < 18.5) {
 			suggest.innerText = "You are underweight :(";
 			suggest.style.display = "block";
