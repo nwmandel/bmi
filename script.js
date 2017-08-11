@@ -13,7 +13,8 @@ function findbmi() {
 		alert("Enter height in inches");
 	} else {
 
-		var res = (703 * (w / ( ((h1 * 12) + h2)^2 )));
+		var temp = (parseInt(h1) * 12 + parseInt(h2));
+		var res = 703 * parseInt(w)/(temp * temp);
 
 
 		document.getElementById("weight").value = "";
