@@ -14,7 +14,8 @@ h1 {
     background-color: #044336;
     padding: 30px 40px;
     color: white;
-    text-align: center;
+    text-align: left;
+    display: block;
 }
 
 /* Clear floats after the header */
@@ -37,6 +38,11 @@ input {
 
 #result {
     font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 26px;
+}
+
+.suggest {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 /* Style the "enter" button */
